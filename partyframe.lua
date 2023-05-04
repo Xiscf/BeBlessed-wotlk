@@ -36,8 +36,6 @@ local modes = {
     [5] = "Greater Blessing of King",
     [6] = "Blessing of Sanctuary",
     [7] = "Greater Blessing of Sanctuary",
- -- [8] = "Blessing of Sanctuary",
- -- [9] = "Greater Blessing of Sanctuary", 
 }
 local numModes = 4;
 
