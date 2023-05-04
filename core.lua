@@ -12,13 +12,13 @@ BeBlessed.BlessingIDs = {
     ["Blessing of Wisdom"] = 48936, -- 19742,
  -- ["Blessing of Salvation"] = 1038,
     ["Blessing of Kings"] = 20217,
-  ["Blessing of Sanctuary"] = 20911,
+    ["Blessing of Sanctuary"] = 20911,
  -- ["Blessing of Light"] = 19977,
     ["Greater Blessing of Might"] = 48934,  -- 25782,
     ["Greater Blessing of Wisdom"] = 48938, -- 25894,
  -- ["Greater Blessing of Salvation"] = 25895,
     ["Greater Blessing of Kings"] = 25898,
-  ["Greater Blessing of Sanctuary"] = 25899,
+    ["Greater Blessing of Sanctuary"] = 25899,
  -- ["Greater Blessing of Light"] = 25890,
 }
 
@@ -29,13 +29,13 @@ local BlessingDurations = {
     ["Blessing of Wisdom"] = 600,    -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
  -- ["Blessing of Salvation"] = 600, -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Blessing of Kings"] = 600,     -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-  ["Blessing of Sanctuary"] = 600, -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+    ["Blessing of Sanctuary"] = 600, -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
  -- ["Blessing of Light"] = 600,     -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Greater Blessing of Might"] = 1800,      -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Greater Blessing of Wisdom"] = 1800,     -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
  -- ["Greater Blessing of Salvation"] = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Greater Blessing of Kings"] = 1800,      -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-  ["Greater Blessing of Sanctuary"] = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+    ["Greater Blessing of Sanctuary"] = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
  -- ["Greater Blessing of Light"] = 1800,      -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
 }
 
