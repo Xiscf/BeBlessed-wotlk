@@ -18,12 +18,6 @@ local textures = {
 	 
     ["Blessing of Sanctuary"] = "Interface\\ICONS\\Spell_Nature_LightningShield.blp",
     ["Greater Blessing of Sanctuary"] = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofSanctuary.blp";
-	 
- -- ["Blessing of Salvation"] = "Interface\\ICONS\\Spell_Holy_SealOfSalvation.blp",
- -- ["Greater Blessing of Salvation"] = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofSalvation.blp",
-
- -- ["Blessing of Light"] = "Interface\\ICONS\\Spell_Holy_PrayerOfHealing02.blp",
- -- ["Greater Blessing of Light"] = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofLight.blp",
 }
 
 
@@ -36,8 +30,6 @@ local modes = {
     [5] = "Greater Blessing of King",
     [6] = "Blessing of Sanctuary",
     [7] = "Greater Blessing of Sanctuary",
- -- [8] = "Blessing of Sanctuary",
- -- [9] = "Greater Blessing of Sanctuary", 
 }
 local numModes = 4;
 
