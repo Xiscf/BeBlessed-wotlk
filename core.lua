@@ -16,10 +16,6 @@ BeBlessed.BlessingIDs = {
     ["Greater Blessing of Wisdom"]    = 48938,
     ["Greater Blessing of Kings"]     = 25898,
     ["Greater Blessing of Sanctuary"] = 25899,
-    -- ["Blessing of Salvation"] = 1038,
-    -- ["Greater Blessing of Light"] = 25890,
-    -- ["Blessing of Light"] = 19977,
-    -- ["Greater Blessing of Salvation"] = 25895,
 }
 
 -- Do not take in consideration the minor glyphe that increase the buff's duration
