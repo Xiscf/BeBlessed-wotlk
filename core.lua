@@ -23,16 +23,12 @@ BeBlessed.BlessingIDs = {
 local BlessingDurations = {
     ["Blessing of Might"] =  600,     -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Blessing of Wisdom"] = 600,    -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
- -- ["Blessing of Salvation"] = 600, -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Blessing of Kings"] = 600,     -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Blessing of Sanctuary"] = 600, -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
- -- ["Blessing of Light"] = 600,     -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Greater Blessing of Might"] = 1800,      -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Greater Blessing of Wisdom"] = 1800,     -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
- -- ["Greater Blessing of Salvation"] = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Greater Blessing of Kings"] = 1800,      -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
     ["Greater Blessing of Sanctuary"] = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
- -- ["Greater Blessing of Light"] = 1800,      -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
 }
 
 local function EqualAny(val, target)
