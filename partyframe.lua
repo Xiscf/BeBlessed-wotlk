@@ -36,6 +36,8 @@ local modes = {
     [5] = "Greater Blessing of King",
     [6] = "Blessing of Sanctuary",
     [7] = "Greater Blessing of Sanctuary",
+ -- [8] = "Blessing of Sanctuary",
+ -- [9] = "Greater Blessing of Sanctuary", 
 }
 local numModes = 4;
 
@@ -49,18 +51,16 @@ local unit_ids = {
 
 local class_color_rgb = {
     [0] = {r=0.3, g=0.3, b=0.3},      --None
-    [1] = {r=0.96, g=0.55, b=0.73},   --Paladin
-    [2] = {r=1.0, g=1.0, b=1.0},      --Priest
-    [3] = {r=0.78, g=0.61, b=0.43},   --Warrior
-    [4] = {r=0.67, g=0.83, b=0.45},   --Hunter
-    [5] = {r=1.0, g=0.96, b=0.41},    --Rogue
-    [6] = {r=1.0, g=0.49, b=0.04},    --Druid
+    [1] = {r=0.78, g=0.61, b=0.43},   --Warrior
+    [2] = {r=1.0, g=0.96, b=0.41},    --Rogue
+    [3] = {r=1.0, g=1.0, b=1.0},      --Priest
+    [4] = {r=1.0, g=0.49, b=0.04},    --Druid
+    [5] = {r=0.96, g=0.55, b=0.73},   --Paladin
+    [6] = {r=0.67, g=0.83, b=0.45},   --Hunter
     [7] = {r=0.41, g=0.80, b=0.94},   --Mage
     [8] = {r=0.58, g=0.51, b=0.79},   --Warlock
     [9] = {r=0.0, g=0.44, b=0.87},    --Shaman
     [10] = {r=0.77, g=0.12, b=0.23},  --Deathknight
-    -- [11] = {r=0.33, g=0.54, b=0.52},  --Monk
-    -- [12] = {r=0.64, g=0.19, b=0.79},  --Demon Hunter
 }
 
 

@@ -8,18 +8,18 @@ BeBlessed.toLocal = {};
 BeBlessed.toEnglish = {};
 BeBlessed.guidToIndex = {};
 BeBlessed.BlessingIDs = {
-    ["Blessing of Might"] =  48932, -- 19740,
-    ["Blessing of Wisdom"] = 48936, -- 19742,
- -- ["Blessing of Salvation"] = 1038,
-    ["Blessing of Kings"] = 20217,
-    ["Blessing of Sanctuary"] = 20911,
- -- ["Blessing of Light"] = 19977,
-    ["Greater Blessing of Might"] = 48934,  -- 25782,
-    ["Greater Blessing of Wisdom"] = 48938, -- 25894,
- -- ["Greater Blessing of Salvation"] = 25895,
-    ["Greater Blessing of Kings"] = 25898,
+    ["Blessing of Might"]             = 48932,
+    ["Blessing of Wisdom"]            = 48936,
+    ["Blessing of Kings"]             = 20217,
+    ["Blessing of Sanctuary"]         = 20911,
+    ["Greater Blessing of Might"]     = 48934,
+    ["Greater Blessing of Wisdom"]    = 48938,
+    ["Greater Blessing of Kings"]     = 25898,
     ["Greater Blessing of Sanctuary"] = 25899,
- -- ["Greater Blessing of Light"] = 25890,
+    -- ["Blessing of Salvation"] = 1038,
+    -- ["Greater Blessing of Light"] = 25890,
+    -- ["Blessing of Light"] = 19977,
+    -- ["Greater Blessing of Salvation"] = 25895,
 }
 
 -- Do not take in consideration the minor glyphe that increase the buff's duration
@@ -64,9 +64,9 @@ function eventHandler.events:ADDON_LOADED(event, addon)
         if (type(BeBlessedData[INDEX]) ~= "table") then
             BeBlessedData[INDEX] = {};
             BeBlessedData[INDEX].settings = {}
-            BeBlessedData[INDEX].settings.modes = {[0] = 0, [1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0}
+            BeBlessedData[INDEX].settings.modes = {[0] = 0, [1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0};
             BeBlessedData[INDEX].buffStatus = {};
-            BeBlessedData[INDEX].settings.selectedBlessings = {[0] = 0, [1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0};
+            BeBlessedData[INDEX].settings.selectedBlessings = {[0] = 0, [1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0};
         end
 
         BeBlessed:CreateSpellNameLocale();
