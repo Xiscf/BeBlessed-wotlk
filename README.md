@@ -19,5 +19,5 @@ Buffing is done by pressing the button associated with each party member
 If the timer displays "buffed" in yellow text another paladin has already blessed that party member with the buff you just selected, so better select another one!
 The AddOn can be moved by dragging the "BeBlessed" text on top of the window.
 
---
+--  
 Xcf [Petrova - Sulfuron - Ally]
