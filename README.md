@@ -20,4 +20,6 @@ If the timer displays "buffed" in yellow text another paladin has already blesse
 The AddOn can be moved by dragging the "BeBlessed" text on top of the window.
 
 --  
-Xcf [Petrova - Sulfuron EU - Ally]
+Xcf [Petrova - Sulfuron EU - Ally]  
+Discord available: BeBlessed-wotlk  
+
