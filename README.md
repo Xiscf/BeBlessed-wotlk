@@ -1,11 +1,11 @@
 # BeBlessed-wotlk
 
-From the work of Janniie - Stormreaver EU
+From the work of [Janniie - Stormreaver EU]
 
 Some bug remains.
 Specially if you have glyphs that extend the duration of Bleesing of King and Blessing of Wisdowm.
 
-Special thanks to Dairmaith - Sulfuron - Ally.
+Special thanks to [Dairmaith - Sulfuron EU - Ally].
 
 
 Original ReadMe from the Original Author
@@ -20,4 +20,4 @@ If the timer displays "buffed" in yellow text another paladin has already blesse
 The AddOn can be moved by dragging the "BeBlessed" text on top of the window.
 
 --  
-Xcf [Petrova - Sulfuron - Ally]
+Xcf [Petrova - Sulfuron EU - Ally]
