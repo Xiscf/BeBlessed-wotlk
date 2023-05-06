@@ -1,0 +1,9 @@
+## Interface: 30400
+## Title: Be|cffF58CBABlessed|r
+## Version: 1.0
+## Notes: Paladin blessings
+## Author: Xcf - Sulfuron [from the work of Janniie - Stormreaver EU]
+## SavedVariables: BeBlessedData
+
+core.lua
+partyframe.lua
