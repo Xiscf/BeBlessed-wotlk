@@ -21,5 +21,5 @@ The AddOn can be moved by dragging the "BeBlessed" text on top of the window.
 
 --  
 Xcf [Petrova - Sulfuron EU - Ally]  
-Discord available: BeBlessed-wotlk  
+Discord available: BeBlessed-wotlk  [https://discord.gg/v7Tjz4CuPh]
 
