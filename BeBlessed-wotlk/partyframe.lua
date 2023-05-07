@@ -2,23 +2,24 @@ local INDEX = UnitName("player").."-"..GetRealmName();
 
 
 
-local STATE_UNKNOWN_TIME = 0
-local STATE_COUNTDOWN = 1
-local STATE_EXPIRED = 2
+local STATE_UNKNOWN_TIME = 0;
+local STATE_COUNTDOWN    = 1;
+local STATE_EXPIRED      = 2;
 
 local textures = {
-    ["Blessing of Might"] = "Interface\\ICONS\\Spell_Holy_FistOfJustice.blp",
-    ["Greater Blessing of Might"] = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofKings",
-    
-    ["Blessing of Wisdom"] = "Interface\\ICONS\\Spell_Holy_SealOfWisdom.blp",
-    ["Greater Blessing of Wisdom"] = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofWisdom",
-    
-    ["Blessing of Kings"] = "Interface\\ICONS\\Spell_Magic_MageArmor.blp",
-    ["Greater Blessing of Kings"] = "Interface\\ICONS\\Spell_Magic_GreaterBlessingofKings.blp",
-	 
-    ["Blessing of Sanctuary"] = "Interface\\ICONS\\Spell_Nature_LightningShield.blp",
-    ["Greater Blessing of Sanctuary"] = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofSanctuary.blp";
-}
+   -- Blessing of Might
+   ["Blessing of Might"]             = "Interface\\ICONS\\Spell_Holy_FistOfJustice.blp",
+   ["Greater Blessing of Might"]     = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofMight",
+   -- Blessing of Wisdom
+   ["Blessing of Wisdom"]            = "Interface\\ICONS\\Spell_Holy_SealOfWisdom.blp",
+   ["Greater Blessing of Wisdom"]    = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofWisdom",
+   -- Blessing of King
+   ["Blessing of Kings"]             = "Interface\\ICONS\\Spell_Magic_MageArmor.blp",
+   ["Greater Blessing of Kings"]     = "Interface\\ICONS\\Spell_Magic_GreaterBlessingofKings.blp",
+   -- Blessing of Sanctuary
+   ["Blessing of Sanctuary"]         = "Interface\\ICONS\\Spell_Nature_LightningShield.blp",
+   ["Greater Blessing of Sanctuary"] = "Interface\\ICONS\\Spell_Holy_GreaterBlessingofSanctuary.blp",
+};
 
 
 local modes = {
@@ -30,7 +31,8 @@ local modes = {
     [5] = "Greater Blessing of King",
     [6] = "Blessing of Sanctuary",
     [7] = "Greater Blessing of Sanctuary",
-}
+};
+
 local numModes = 4;
 
 local unit_ids = {
@@ -39,21 +41,21 @@ local unit_ids = {
     [2] = "party2",
     [3] = "party3",
     [4] = "party4",
-}
+};
 
 local class_color_rgb = {
-    [0] = {r=0.3, g=0.3, b=0.3},      --None
-    [1] = {r=0.78, g=0.61, b=0.43},   --Warrior
-    [2] = {r=1.0, g=0.96, b=0.41},    --Rogue
-    [3] = {r=1.0, g=1.0, b=1.0},      --Priest
-    [4] = {r=1.0, g=0.49, b=0.04},    --Druid
-    [5] = {r=0.96, g=0.55, b=0.73},   --Paladin
-    [6] = {r=0.67, g=0.83, b=0.45},   --Hunter
-    [7] = {r=0.41, g=0.80, b=0.94},   --Mage
-    [8] = {r=0.58, g=0.51, b=0.79},   --Warlock
-    [9] = {r=0.0, g=0.44, b=0.87},    --Shaman
-    [10] = {r=0.77, g=0.12, b=0.23},  --Deathknight
-}
+    [0]  = {r=0.30, g=0.30, b=0.30},   --None
+    [1]  = {r=0.78, g=0.61, b=0.43},   --Warrior
+    [2]  = {r=1.00, g=0.96, b=0.41},   --Rogue
+    [3]  = {r=1.00, g=1.00, b=1.00},   --Priest
+    [4]  = {r=1.00, g=0.49, b=0.04},   --Druid
+    [5]  = {r=0.96, g=0.55, b=0.73},   --Paladin
+    [6]  = {r=0.67, g=0.83, b=0.45},   --Hunter
+    [7]  = {r=0.41, g=0.80, b=0.94},   --Mage
+    [8]  = {r=0.58, g=0.51, b=0.79},   --Warlock
+    [9]  = {r=0.00, g=0.44, b=0.87},   --Shaman
+    [10] = {r=0.77, g=0.12, b=0.23},   --Deathknight
+};
 
 
 
