@@ -8,28 +8,29 @@ BeBlessed.toLocal = {};
 BeBlessed.toEnglish = {};
 BeBlessed.guidToIndex = {};
 BeBlessed.BlessingIDs = {
-    ["Blessing of Might"]             = 48932,
-    ["Blessing of Wisdom"]            = 48936,
-    ["Blessing of Kings"]             = 20217,
-    ["Blessing of Sanctuary"]         = 20911,
-    ["Greater Blessing of Might"]     = 48934,
-    ["Greater Blessing of Wisdom"]    = 48938,
-    ["Greater Blessing of Kings"]     = 25898,
-    ["Greater Blessing of Sanctuary"] = 25899,
-}
+   ["Blessing of Wisdom"]            = 48936,
+   ["Blessing of Might"]             = 48932,
+   ["Blessing of Kings"]             = 20217,
+   ["Blessing of Sanctuary"]         = 20911,
+
+   ["Greater Blessing of Wisdom"]    = 48938,
+   ["Greater Blessing of Might"]     = 48934,
+   ["Greater Blessing of Kings"]     = 25898,
+   ["Greater Blessing of Sanctuary"] = 25899,
+};
 
 -- Do not take in consideration the minor glyphe that increase the buff's duration
 -- on yourself from yourself. 
 local BlessingDurations = {
-    ["Blessing of Might"] =  600,    -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-    ["Blessing of Wisdom"] = 600,    -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-    ["Blessing of Kings"] = 600,     -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-    ["Blessing of Sanctuary"] = 600, -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-    ["Greater Blessing of Might"] = 1800,      -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-    ["Greater Blessing of Wisdom"] = 1800,     -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-    ["Greater Blessing of Kings"] = 1800,      -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-    ["Greater Blessing of Sanctuary"] = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
-}
+   ["Blessing of Might"]             =  600,  -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+   ["Blessing of Wisdom"]            =  600,  -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+   ["Blessing of Kings"]             =  600,  -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+   ["Blessing of Sanctuary"]         =  600,  -- 300 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+   ["Greater Blessing of Might"]     = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+   ["Greater Blessing of Wisdom"]    = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+   ["Greater Blessing of Kings"]     = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+   ["Greater Blessing of Sanctuary"] = 1800,  -- 900 (300 = 5min, 600 = 10min, 900 = 15min, 1800 = 30m)
+};
 
 local function EqualAny(val, target)
    for v,_ in pairs(target) do
