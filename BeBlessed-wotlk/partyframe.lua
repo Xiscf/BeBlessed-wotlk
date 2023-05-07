@@ -23,17 +23,17 @@ local textures = {
 
 
 local modes = {
-    [0] = "Blessing of Might",
-    [1] = "Greater Blessing of Might",
-    [2] = "Blessing of Wisdom",
-    [3] = "Greater Blessing of Wisdom",
-    [4] = "Blessing of King",
-    [5] = "Greater Blessing of King",
-    [6] = "Blessing of Sanctuary",
-    [7] = "Greater Blessing of Sanctuary",
+   [0] = "Blessing of Might",
+   [1] = "Blessing of Wisdom",
+   [2] = "Greater Blessing of Might",
+   [3] = "Greater Blessing of Wisdom",
+   [4] = "Blessing of King",
+   [5] = "Greater Blessing of King",
+   [6] = "Blessing of Sanctuary",
+   [7] = "Greater Blessing of Sanctuary",
 };
 
-local numModes = 4;
+local numModes = 8;
 
 local unit_ids = {
     [0] = "player",
@@ -44,17 +44,17 @@ local unit_ids = {
 };
 
 local class_color_rgb = {
-    [0]  = {r=0.30, g=0.30, b=0.30},   --None
-    [1]  = {r=0.78, g=0.61, b=0.43},   --Warrior
-    [2]  = {r=1.00, g=0.96, b=0.41},   --Rogue
-    [3]  = {r=1.00, g=1.00, b=1.00},   --Priest
-    [4]  = {r=1.00, g=0.49, b=0.04},   --Druid
-    [5]  = {r=0.96, g=0.55, b=0.73},   --Paladin
-    [6]  = {r=0.67, g=0.83, b=0.45},   --Hunter
-    [7]  = {r=0.41, g=0.80, b=0.94},   --Mage
-    [8]  = {r=0.58, g=0.51, b=0.79},   --Warlock
-    [9]  = {r=0.00, g=0.44, b=0.87},   --Shaman
-    [10] = {r=0.77, g=0.12, b=0.23},   --Deathknight
+    [0]   = {r=0.30, g=0.30, b=0.30},   --None
+    [1]   = {r=0.78, g=0.61, b=0.43},   --Warrior
+    [2]   = {r=0.96, g=0.55, b=0.73},   --Paladin
+    [3]   = {r=0.67, g=0.83, b=0.45},   --Hunter
+    [4]   = {r=1.00, g=0.96, b=0.41},   --Rogue	
+    [5]   = {r=1.00, g=1.00, b=1.00},   --Priest	
+    [6]   = {r=0.77, g=0.12, b=0.23},   --Deathknight	
+    [7]   = {r=0.00, g=0.44, b=0.87},   --Shaman
+    [8]   = {r=0.41, g=0.80, b=0.94},   --Mage
+    [9]   = {r=0.58, g=0.51, b=0.79},   --Warlock
+    [10]  = {r=1.00, g=0.49, b=0.04},   --Druid
 };
 
 
@@ -326,7 +326,5 @@ function BeBlessed:CreateBuffFrame()
         end
 
     end)
-
-    
 
 end
