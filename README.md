@@ -29,11 +29,11 @@ It is meant, and only meant, for "Wow Wotlk CLASSIC".
 BUG KNOWN
 ---------
 When a drood join the party,
-the addon get instable.
+the addon get unstable.
 We are working on it as we also
 reformat the code.
 Sorry for that.  And since I do not
-jave a drood it's kîd of complicated.
+have a drood it's kind of complicated.
 
 &nbsp;  
 &nbsp;  
@@ -58,4 +58,4 @@ The AddOn can be moved by dragging the "BeBlessed" text on top of the window.
 --  
 Xcf [Petrova - Sulfuron EU - Ally]  
 Discord available: BeBlessed-wotlk  [https://discord.gg/v7Tjz4CuPh]
-
+Sorry for my bad english.
