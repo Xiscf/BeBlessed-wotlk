@@ -26,6 +26,18 @@ It is meant, and only meant, for "Wow Wotlk CLASSIC".
 &nbsp;  
 &nbsp;  
 
+BUG KNOWN
+---------
+When a drood join the party,
+the addon get instable.
+We are working on it as we also
+reformat the code.
+Sorry for that.  And since I do not
+jave a drood it's kîd of complicated.
+
+&nbsp;  
+&nbsp;  
+
 ORIGINAL README
 ---------------
 Now you will find the original ReadMe from the Original Author [Janniie - Stormreaver EU] who did everything.  I just fixed it for wotlk classic.
